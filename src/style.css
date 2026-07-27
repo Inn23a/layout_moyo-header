@@ -49,12 +49,12 @@ header {
   margin-right: 0;
 }
 
-a:hover,
+.page:hover,
 .is-active {
   color: var(--link-color);
 }
 
-a.is-active::after {
+.page.is-active::after {
   content: '';
   display: flex;
   position: absolute;
